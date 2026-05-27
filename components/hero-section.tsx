@@ -29,7 +29,7 @@ export function HeroSection() {
               href="#"
               className="flex shrink-0 items-center py-1 text-lg font-bold tracking-tight text-white md:text-xl"
             >
-              株式会社DX研究所
+              株式会社Asiart
             </a>
 
             <nav className="hidden items-center space-x-6 lg:flex">

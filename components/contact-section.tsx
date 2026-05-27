@@ -70,17 +70,17 @@ export function ContactSection() {
           <p className="mt-6 text-sm text-gray-600">
             <span className="font-semibold text-brand-secondary">連絡先</span>{" "}
             <a
-              href="tel:0352178988"
+              href="tel:09080029597"
               className="text-brand-primary underline underline-offset-2 hover:opacity-80"
             >
-              TEL：03-5217-8988
+              TEL：090-8002-9597
             </a>{" "}
             <span className="text-gray-400">／</span>{" "}
             <a
-              href="mailto:hikota@d-dxlab.com?subject=%E7%94%9F%E6%88%90AI%E6%B4%BB%E7%94%A8%E3%83%BB%E6%A5%AD%E5%8B%99%E5%8A%B9%E7%8E%87%E5%8C%96%E7%A0%94%E4%BF%AE%E3%81%AE%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+              href="mailto:hidehiko.motegi@asiart-tech.com?subject=%E7%94%9F%E6%88%90AI%E6%B4%BB%E7%94%A8%E3%83%BB%E6%A5%AD%E5%8B%99%E5%8A%B9%E7%8E%87%E5%8C%96%E7%A0%94%E4%BF%AE%E3%81%AE%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
               className="text-brand-primary underline underline-offset-2 hover:opacity-80"
             >
-              MAIL：hikota@d-dxlab.com
+              MAIL：hidehiko.motegi@asiart-tech.com
             </a>
           </p>
         </div>

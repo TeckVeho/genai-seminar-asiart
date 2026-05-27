@@ -10,7 +10,7 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: '物流企業特化 AI人材育成プログラム | 生成AI活用・業務効率化研修 | 株式会社DX研究所',
+  title: '物流企業特化 AI人材育成プログラム | 生成AI活用・業務効率化研修 | 株式会社Asiart',
   description:
     '全社員向け。生成AIで定型業務・文書作成を効率化する全10回・10時間の実践研修。人材開発支援助成金（事業展開等リスキリング支援コース）に対応。',
 }

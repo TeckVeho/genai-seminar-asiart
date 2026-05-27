@@ -20,7 +20,7 @@ export function SolutionSection() {
     <section id="solution" className="section-y section-x bg-white">
       <div className="container mx-auto text-center">
         <h2 className="text-fluid-section mb-8 font-bold text-brand-secondary md:mb-12">
-          株式会社DX研究所の研修が選ばれる3つの理由
+          株式会社Asiartの研修が選ばれる3つの理由
         </h2>
         <div className="mx-auto max-w-3xl space-y-8 text-left">
           {solutions.map((item, i) => (
