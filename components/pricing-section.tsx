@@ -1,7 +1,7 @@
 import { Check, BadgePercent, MessageCircle } from "lucide-react"
 
 const includes = [
-  "全12回 講義（各60分・オンライン）",
+  "全10回 講義（各70分・オンライン）",
   "テキスト・教材費",
   "ワークショップ指導料",
   "助成金申請用カリキュラム・書類一式",

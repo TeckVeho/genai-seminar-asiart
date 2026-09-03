@@ -14,10 +14,10 @@ export function AboutMediaSection() {
       </div>
       <div className="relative z-10 container mx-auto px-4 text-center md:px-6">
         <h2 className="text-fluid-section mb-4 font-bold">
-          物流現場の「手作業」を、生成AIで変える。
+          現場の「手作業」を、生成AIで変える。
         </h2>
         <p className="text-fluid-lead mx-auto mb-8 max-w-2xl text-gray-200">
-          AIエージェント機能で報告書・議事録・連絡文書の作成を効率化。10時間の研修で、各拠点のDX人材を育成しませんか。
+          AIエージェントで報告書・議事録・連絡文書の作成を効率化。全10回・各70分の研修で、部署を動かすDX人材を育成しませんか。
         </p>
         <a
           href="#contact"

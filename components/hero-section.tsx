@@ -113,11 +113,10 @@ export function HeroSection() {
             生成AIで、現場の業務と生産性を変える
           </p>
           <h1 className="text-fluid-display mb-4 max-w-4xl font-bold leading-tight">
-            物流企業特化<br />
             AI人材育成プログラム
           </h1>
           <p className="text-fluid-lead mb-8 max-w-2xl text-white/95">
-            定型業務・文書作成・社内外のコミュニケーションを効率化。全12回・12時間で、
+            定型業務・文書作成・社内外のコミュニケーションを効率化。全10回・各70分で、
             <br />
             現場ですぐ使える実践力を。
           </p>

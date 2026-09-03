@@ -2,55 +2,47 @@ import { BookOpen, Wrench } from "lucide-react"
 
 const onlineSteps = [
   {
-    title: "業務棚卸し",
-    body: "自分の業務を洗い出し、AI化の対象を見つけます。",
+    title: "ワークフロー棚卸し",
+    body: "定期業務を洗い出し、自動化の対象と優先順位を決めます。",
   },
   {
-    title: "生成AI概論",
-    body: "AI基礎・プロンプト設計・リスク管理・ツール機能の全体像を学びます。",
+    title: "生成AI＋エージェント概論",
+    body: "モデルの特性と、エージェントに業務を任せる全体像を学びます。",
   },
   {
-    title: "AIエージェント入門 (1)",
-    body: "AIエージェントの概要と基本操作に加え、自然言語で業務タスクを実行する流れを体験します。文書作成やデータ処理など代表的な自動化も扱います。",
+    title: "単体スキルの体験",
+    body: "定型業務を実行し、再利用できる「スキル」の考え方を体験します。",
   },
   {
-    title: "AIエージェント入門 (2)",
-    body: "PC上のファイル操作と、表計算・スプレッドシート・データ処理など、ファイルを起点とした業務の自動化を体験します。",
+    title: "自社スキルの設計",
+    body: "自分の業務について、入力・手順・判断基準・出力・完了条件を定義します。",
   },
   {
-    title: "AIエージェント入門 (3)",
-    body: "プロジェクト活用・スケジュールタスク・複合タスクを体験します。",
+    title: "スキルの作成・テスト",
+    body: "同じ手順・品質で繰り返せるスキルを作り、テストして調整します。",
   },
 ]
 
 const workshopSteps = [
   {
-    title: "業務課題の深堀り",
-    body: "業務課題を分析し、AIエージェントで自動化するタスクを設計します。",
+    title: "AI社員の体験＋設計",
+    body: "役割・知識・スキル・実行頻度を組み合わせ、権限と承認ポイントを設計します。",
   },
   {
-    title: "ソリューション構築 (1)",
-    body: "プロトタイプを開発します。",
+    title: "AI社員の構築",
+    body: "プロジェクト化・定期実行・第三者テストまで行い、他の人でも運用できる状態にします。",
   },
   {
-    title: "ソリューション構築 (2)",
-    body: "改善・機能追加を行います。",
+    title: "複合業務への適用設計",
+    body: "複数工程・承認・例外処理を含む業務に適用し、運用ルールと効果指標を定義します。",
   },
   {
-    title: "ソリューション構築 (3)",
-    body: "仕上げ・テスト・プロジェクト化を行います。",
-  },
-  {
-    title: "業務適用＋運用設計",
-    body: "実際の業務データで動作を検証し、誰でも使える運用ルールと手順書を整備します。",
-  },
-  {
-    title: "成果物の完成＋社内展開準備",
-    body: "成果物を完成させ、社内展開に向けた効果測定の設計と発表資料を作成します。",
+    title: "検証・改善・展開準備",
+    body: "実行検証と改善を行い、社内展開用の手順書と発表準備を整えます。",
   },
   {
     title: "成果発表会",
-    body: "成果を共有し、ナレッジベース化します。",
+    body: "成果を共有し、ナレッジとして残します。",
   },
 ]
 
@@ -69,9 +61,9 @@ type Phase = {
 
 const phases: Phase[] = [
   {
-    label: "座学フェーズ",
+    label: "導入〜単体スキル",
     sessions: "第 1 〜 5 回",
-    hours: "5 時間",
+    hours: "5時間50分",
     icon: BookOpen,
     accentColor: "from-blue-600 to-brand-primary",
     dotColor: "bg-blue-600",
@@ -81,9 +73,9 @@ const phases: Phase[] = [
     startFrom: 1,
   },
   {
-    label: "実践・ワークショップ",
-    sessions: "第 6 〜 12 回",
-    hours: "7 時間",
+    label: "AI社員〜成果発表",
+    sessions: "第 6 〜 10 回",
+    hours: "5時間50分",
     icon: Wrench,
     accentColor: "from-emerald-600 to-teal-500",
     dotColor: "bg-emerald-600",
@@ -104,12 +96,12 @@ export function FeaturesSection() {
         {/* ヘッダー */}
         <div className="mb-10 text-center md:mb-16">
           <h2 className="text-fluid-section mb-3 font-bold text-brand-secondary">
-            全12回オンラインで実施するカリキュラム
+            全10回オンラインで実施するカリキュラム
           </h2>
           <p className="text-fluid-body mx-auto max-w-xl text-gray-500">
-            座学で基礎を固め、ワークショップで自社の業務課題を解決する
+            単体スキル → AI社員 → 複合業務へ。
             <br className="hidden sm:inline" />
-            一気通貫の実践型プログラム
+            3段階で、自社の仕事に落とす実践型プログラム
           </p>
         </div>
 
@@ -174,7 +166,7 @@ export function FeaturesSection() {
 
         {/* フッター補足 */}
         <p className="mt-8 text-center text-sm text-gray-400">
-          ※ 各回 60 分・全12回（合計 12 時間）のオンライン実施。人材開発支援助成金の実訓練時間要件（10 時間以上）を満たしています。
+          ※ 各回 70 分・全10回（合計 11時間40分）のオンライン実施。人材開発支援助成金の実訓練時間要件（10 時間以上）を満たしています。
         </p>
       </div>
     </section>

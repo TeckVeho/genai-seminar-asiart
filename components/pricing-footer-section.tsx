@@ -6,8 +6,6 @@ export function PricingFooterSection() {
           <div>
             <p className="text-fluid-heading-lg mb-1 font-bold">株式会社Asiart（Asiart Inc.）</p>
             <p className="text-sm text-white/70">
-              物流企業特化
-              <br />
               AI人材育成プログラム
             </p>
             <p className="mt-2 max-w-md text-xs leading-relaxed text-white/50">
